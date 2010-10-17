@@ -1,7 +1,7 @@
 ---
 abstract: 'Dancer plugin for MongoDB'
 author:
-  - 'Adam Taylor <adamjctaylor@gmail.com>'
+  - 'Adam Taylor <ajct@cpan.org>'
 build_requires:
   Test::More: 0
 configure_requires:
@@ -16,4 +16,4 @@ name: Dancer-Plugin-Mongo
 requires:
   Dancer::Plugin: 0
   MongoDB: 0.38
-version: 0.01
+version: 0.02

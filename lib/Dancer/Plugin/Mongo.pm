@@ -44,7 +44,7 @@ Dancer::Plugin::Mongo - MongoDB plugin for the Dancer micro framework
 
 =head1 VERSION
 
-version 0.01
+version 0.02
 
 =head1 SYNOPSIS
 
@@ -66,27 +66,30 @@ L<MongoDB::Collection>.
 
 =head1 CONFIGURATON
 
-plugins:
-  Mongo:
-    host:
-    port:
-    username:
-    password:
-    w:
-    wtimeout:
-    auto_reconnect:
-    auto_connect:
-    timeout:
-    db_name:
-    query_timeout:
-    find_master:
+Connection details will be taken from your Dancer application config file, and
+should be specified as, for example:
+
+    plugins:
+	Mongo:
+	    host:
+	    port:
+	    username:
+	    password:
+	    w:
+	    wtimeout:
+	    auto_reconnect:
+	    auto_connect:
+	    timeout:
+	    db_name:
+	    query_timeout:
+	    find_master:
 
 All these configuration values are optional, full details are in the 
-L<Mongo::Connection> documentation.
+L<MongoDB::Connection> documentation.
 
 =head1 AUTHOR
 
-Adam Taylor <adamjctaylor@gmail.com>
+Adam Taylor <ajct@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 

@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker 6.31;
 
 my %WriteMakefileArgs = (
   'ABSTRACT' => 'Dancer plugin for MongoDB',
-  'AUTHOR' => 'Adam Taylor <adamjctaylor@gmail.com>',
+  'AUTHOR' => 'Adam Taylor <ajct@cpan.org>',
   'BUILD_REQUIRES' => {
     'Test::More' => '0'
   },
@@ -25,7 +25,7 @@ my %WriteMakefileArgs = (
     'Dancer::Plugin' => '0',
     'MongoDB' => '0.38'
   },
-  'VERSION' => '0.01',
+  'VERSION' => '0.02',
   'test' => {
     'TESTS' => 't/*.t'
   }
